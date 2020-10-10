@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import HomepageComponent from './components/HomepageComponent';
 import "bootstrap/dist/css/bootstrap.css";
+import recipeService from "../src/services/RecipeService"
 
 ReactDOM.render(
   <React.StrictMode>
